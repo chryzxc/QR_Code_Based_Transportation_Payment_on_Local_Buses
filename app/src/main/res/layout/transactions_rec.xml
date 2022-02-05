@@ -52,7 +52,7 @@
                         android:layout_width="32dp"
                         android:layout_height="32dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_baseline_send_24" />
+                        app:srcCompat="@drawable/send" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
 
