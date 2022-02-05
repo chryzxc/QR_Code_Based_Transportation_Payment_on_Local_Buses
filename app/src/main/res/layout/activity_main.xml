@@ -37,13 +37,14 @@
                     android:layout_height="wrap_content"
                     android:text="Hello,"
                     android:textColor="@color/navButtonBackground"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Christian Villablanca"
+                    android:text="Apollo Quiboloy"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -63,7 +64,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/card_top"
             android:backgroundTint="@color/dirtyWhite"
             android:orientation="vertical">
@@ -123,19 +124,21 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:layout_height="wrap_content">
 
                             <ImageView
                                 android:id="@+id/imageView7"
-                                android:layout_width="200dp"
+                                android:layout_width="0dp"
                                 android:layout_height="0dp"
+                                android:layout_marginStart="50dp"
                                 android:scaleType="centerCrop"
                                 android:tint="#0562EE"
-                                app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="1.0"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0"
                                 app:srcCompat="@drawable/ic_baseline_align_vertical_bottom_24" />
 
                             <LinearLayout
@@ -154,7 +157,7 @@
                                     android:id="@+id/textView5"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Christian Villablanca"
+                                    android:text="Apollo Quiboloy"
                                     android:textAllCaps="true"
                                     android:textColor="@color/white"
                                     android:textStyle="bold" />
@@ -177,28 +180,56 @@
                                     <ImageView
                                         android:id="@+id/imageView6"
                                         android:layout_width="match_parent"
-                                        android:layout_height="20dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="left"
                                         android:layout_weight="2"
+                                        android:padding="10dp"
                                         android:tint="@color/white"
                                         app:srcCompat="@drawable/ic_baseline_content_copy_24" />
                                 </LinearLayout>
 
-                                <TextView
-                                    android:id="@+id/textView8"
+                                <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="match_parent"
                                     android:layout_marginTop="30dp"
-                                    android:text="Balance"
-                                    android:textColor="@color/dirtyWhite" />
+                                    android:orientation="horizontal">
 
-                                <TextView
-                                    android:id="@+id/textView9"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:text="₱50.00"
-                                    android:textColor="@color/white"
-                                    android:textSize="30sp"
-                                    android:textStyle="bold" />
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView8"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="Balance"
+                                            android:textColor="@color/dirtyWhite" />
+
+                                        <TextView
+                                            android:id="@+id/textView9"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="₱50.00"
+                                            android:textColor="@color/white"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+                                    <Button
+                                        android:id="@+id/button"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom|center"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_weight="0"
+                                        android:backgroundTint="@color/teal_200"
+                                        android:text="Active"
+                                        android:textColor="@color/black"
+                                        app:cornerRadius="10dp" />
+
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -212,7 +243,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -222,6 +253,7 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/sendButton"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_gravity="center"
@@ -259,6 +291,7 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/receiveButton"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_gravity="center"
@@ -296,6 +329,7 @@
                     android:orientation="vertical">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/topupButton"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_gravity="center"
@@ -330,7 +364,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="70dp"
@@ -368,7 +403,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -389,7 +424,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/recentTransactions"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"

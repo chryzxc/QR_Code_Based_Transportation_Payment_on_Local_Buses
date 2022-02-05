@@ -16,12 +16,10 @@ public class TransactionsAdapter extends RecyclerView.Adapter<TransactionsAdapte
     private List<TransactionsList> myListList;
     private Context ct;
 
-
     public TransactionsAdapter(List<TransactionsList> myListList, Context ct) {
         this.myListList = myListList;
         this.ct = ct;
     }
-
 
 
     @NonNull
@@ -30,7 +28,6 @@ public class TransactionsAdapter extends RecyclerView.Adapter<TransactionsAdapte
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.transactions_rec,parent,false);
         return new ViewHolder(view);
 
-
     }
 
 
@@ -38,11 +35,7 @@ public class TransactionsAdapter extends RecyclerView.Adapter<TransactionsAdapte
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         TransactionsList myList=myListList.get(position);
 
-
-
     }
-
-
 
     @Override
     public int getItemCount() {
@@ -53,13 +46,8 @@ public class TransactionsAdapter extends RecyclerView.Adapter<TransactionsAdapte
 
         private TextView billAmount,billDue;
 
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-
-
-
-
 
 
         }
