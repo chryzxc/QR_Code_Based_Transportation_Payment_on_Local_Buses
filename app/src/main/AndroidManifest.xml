@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.localbuses.transportation">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,13 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QRCodeBasedTransportationPaymentOnLocalBuses.NoActionBar">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Scanner"
+            android:exported="false" />
+        <activity
+            android:name=".Pay"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".Recent_Transactions"
             android:exported="false" />
         <activity
-            android:name=".Receive"
+            android:name=".QRCode"
             android:exported="false" />
         <activity
             android:name=".Send"

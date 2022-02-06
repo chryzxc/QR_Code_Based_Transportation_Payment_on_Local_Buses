@@ -5,15 +5,17 @@
       <map>
         <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/drawable/card_bottom.xml" value="0.176" />
         <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/drawable/card_top.xml" value="0.1565" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_login.xml" value="0.176" />
         <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/transactions_rec.xml" value="0.36283185840707965" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_pay.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_qrcode.xml" value="0.176" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_receive.xml" value="0.176" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_scanner.xml" value="0.136" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/activity_send.xml" value="0.264" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/scanner_view.xml" value="0.13405797101449277" />
+        <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/layout/transactions_rec.xml" value="0.176" />
         <entry key="..\:/AndroidStudio/QRCodeBasedTransportationPaymentonLocalBuses/app/src/main/res/menu/navigation_main.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/activity_login.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/activity_receive.xml" value="0.22" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/activity_recent_transactions.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/activity_send.xml" value="0.2" />
-        <entry key="..\:/Users/Christian/StudioProjects/QR_Code_Based_Transportation_Payment_on_Local_Buses/app/src/main/res/layout/transactions_rec.xml" value="0.33" />
       </map>
     </option>
   </component>

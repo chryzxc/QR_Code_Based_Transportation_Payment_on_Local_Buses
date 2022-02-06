@@ -14,7 +14,7 @@ import com.google.zxing.WriterException;
 import androidmads.library.qrgenearator.QRGContents;
 import androidmads.library.qrgenearator.QRGEncoder;
 
-public class Receive extends AppCompatActivity {
+public class QRCode extends AppCompatActivity {
     Bitmap bitmap;
     QRGEncoder qrgEncoder;
     ImageView qrcodeImage;
@@ -22,7 +22,7 @@ public class Receive extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_receive);
+        setContentView(R.layout.activity_qrcode);
 
         qrcodeImage = findViewById(R.id.qrcodeImage);
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Receive">
+    tools:context=".QRCode">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:layout_marginEnd="24dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
-                android:text="Receive"
+                android:text="QR Code"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold"
@@ -58,38 +58,20 @@
             android:background="@drawable/card_top"
             android:orientation="vertical">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <ImageView
+                android:id="@+id/qrcodeImage"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="350dp"
+                android:layout_marginTop="50dp" />
 
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:gravity="center"
-                    android:text="QR Code"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <ImageView
-                    android:id="@+id/qrcodeImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:layout_marginTop="24dp"
-                    android:layout_marginBottom="24dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView6"
-                    app:layout_constraintVertical_bias="0.0"
-                    tools:srcCompat="@tools:sample/avatars" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Use this code to receive funds, pay buses and many more" />
 
         </LinearLayout>
 

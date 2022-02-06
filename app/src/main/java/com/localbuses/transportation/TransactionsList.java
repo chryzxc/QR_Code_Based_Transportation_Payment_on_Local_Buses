@@ -6,16 +6,10 @@ public class TransactionsList {
 
 
     public TransactionsList(String id,
-                            String customer_id
-
-
-                            ) {
+                            String customer_id) {
 
         this.id = id;
         this.customer_id = customer_id;
-
-
-
 
 
 

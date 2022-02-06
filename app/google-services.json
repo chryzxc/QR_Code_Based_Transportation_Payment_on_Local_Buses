@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460464500609",
+    "firebase_url": "https://qrcode-payment-local-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "qrcode-payment-local",
+    "storage_bucket": "qrcode-payment-local.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460464500609:android:6743dd0bcd44fed7350280",
+        "android_client_info": {
+          "package_name": "com.localbuses.transportation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460464500609-olnl27oui84dhjp80e84ct83497ogt3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm9yRFKIUncM0Du8PSNfDEFuJ64divRDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460464500609-olnl27oui84dhjp80e84ct83497ogt3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
